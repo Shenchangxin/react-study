@@ -3,7 +3,7 @@ import {createSlice,createAsyncThunk} from "@reduxjs/toolkit";
 import {PayloadAction} from "@reduxjs/toolkit";
 
 type Token = string;
-type Infos = {
+export type Infos = {
     [index: string]: unknown
 }
 export type UsersState = {
